@@ -1,0 +1,127 @@
+/* 全体リセット */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* ヘッダー */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d70000;
+    padding: 15px 30px;
+    color: white;
+}
+
+.main-header .logo img {
+    height: 40px;
+}
+
+.main-nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+.main-nav a {
+    color: white;
+    font-weight: bold;
+}
+
+/* メインビジュアル */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.8rem;
+}
+
+/* ニュースセクション */
+.news {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+}
+
+.news h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.news-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.news article {
+    width: 300px;
+}
+
+.news article img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.news article h3 {
+    margin: 15px 0 10px;
+    font-size: 1.5rem;
+}
+
+/* ピックアップセクション */
+.pickup {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.pickup h2 {
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+.pickup-list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.pickup .item img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+/* フッター */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: white;
+}
